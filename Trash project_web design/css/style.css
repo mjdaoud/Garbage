@@ -1,0 +1,33 @@
+body {
+	color: white;
+	font-family: helvetica, sans-serif;
+	}
+
+h4 {font-size: 24px;
+	margin-top: 150px;
+	margin-left: 370px;
+	margin-right: 370px;}
+h2 {font-size: 52px;
+	margin-top: 150px;
+	margin-left: 100px;
+	margin-right: 100px;}
+h3 {font-size: 60px;
+	font-style: italic;
+	margin-left: 120px;
+	margin-right: 120px;}
+h6 {font-size: 24px;
+	margin-left: 250px;
+	margin-right: 250px;}	
+
+#mytext {
+	position: absolute;
+	top: 0;
+	left: 30;
+	right: 30;
+	width: 960px;
+}
+
+@media screen and (max-width: 650px) {
+		#mytext {width:100%;}
+		img {width:100%;}
+	}
